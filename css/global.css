@@ -1,0 +1,49 @@
+body {
+  padding-top: 70px;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+}
+
+.results {
+    font-family: monospace;
+    float: right;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+    width: 50%;
+    padding: 10px;
+}
+
+.results span {
+    color: red;
+}
+
+#video-frame {
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    width: 640px;
+    height: 360px;
+    position: relative;
+    float: left;
+}
+
+.video-frame img {
+    position: absolute;
+    z-index: -1;
+}
+
+#cue-box {
+    border: 1px solid yellow;
+    position: absolute;
+}
+
+#cue-text {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 2px;
+}
